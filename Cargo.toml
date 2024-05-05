@@ -17,7 +17,6 @@ lru-cache = "=0.1.1"
 nix = "0.9"
 os_pipe = "0.6"
 percent-encoding = "1.0"
-pnet = "0.22.0"
 regex = "0.2"
 serde = "1.0"
 serde-xml-rs = "0.2"
@@ -28,6 +27,7 @@ tokio-core = "0.1"
 tokio-file-unix = "0.4"
 tokio-io = "0.1"
 serde_urlencoded_field = "0.1.0"
+pnet = "0.34.0"
 [patch.crates-io]
 lru-cache = { git = "https://github.com/kevincox/lru-cache.git", branch = "entry-api" }
 [profile.release]
